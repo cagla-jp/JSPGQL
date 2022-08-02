@@ -1,0 +1,162 @@
+.btn {
+    width: 5vw;
+    border: none;
+    color: white;
+    padding: 1vh 2vw;
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 1vh 0;
+    cursor: pointer;
+    opacity: 1;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px 0px grey;
+    transition: .4s;
+    background-color: #2e3138;
+    bottom: 0px;
+}
+
+.btn:hover {
+    opacity: 100%;
+    transition: .4s;
+}
+
+.btn1 {
+    width: 10vw;
+    border: none;
+    color: white;
+    padding: 0.8vh 1vw;
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 0.5vh 1vh;
+    cursor: pointer;
+    opacity: 1;
+    border-radius: 4px;
+    box-shadow: 2px 2px 10px 0px grey;
+    transition: .4s;
+    background-color: #2e3138;
+}
+
+.btn1:hover {
+    opacity: 100%;
+    transition: .4s;
+}
+
+/* Drop down list */
+.displayIcon{
+    float:right;
+    margin-top:0.23vw;
+}
+
+.dropdown {
+    margin-top:0.5vw;
+    margin-bottom:1vw;
+    font-size: 0.75rem;
+    width: 13vw;
+    /* display: inline-block; */
+    background-color:  #2e3138;
+    border-radius: 4px;
+    border: 1px solid;
+    box-shadow: 2px 2px 10px 0px grey;
+    transition: all .5s ease;
+    position: relative;
+    color: white;
+    text-align: left;
+    opacity: 1;
+}
+
+.dropdown .select {
+    cursor: pointer;
+    display: block;
+    padding: 0.4vh 1vh;
+}
+
+.dropdown .select > .displayIcon {
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.dropdown:hover {
+    background: #2e3138;
+}
+
+.dropdown:active {
+    background: #2e3138;
+}
+
+.dropdown.active:hover,
+.dropdown.active {
+    box-shadow: 2px 2px 10px 0px grey;
+    border-radius: 3px 3px 0 0;
+    background-color: #2e3138;
+}
+
+.dropdown.active .select > .displayIcon {
+    transform: rotate(-90deg);
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    background-color: #2e3138;
+    width: 100%;
+    left: 0;
+    margin-top: 1px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 0 1px 5px 5px;
+    overflow: hidden;
+    display: none;
+    overflow-y: auto;
+    z-index: 9;
+}
+
+.dropdown .dropdown-menu li {
+    padding: 1vh;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.dropdown .dropdown-menu {
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown .dropdown-menu li:hover {
+    background-color: #2e3138;
+    opacity: 1;
+}
+
+.dropdown .dropdown-menu li:active {
+    background-color: #2e3138;
+}
+
+/* end drop down list */
+
+.mainContainerL {
+    float: left;
+    width: 50vw;
+}
+
+.container1 {
+    display: inline-block;
+}
+
+.resultContainer {
+    top: 0;
+}
+
+.output {
+    overflow: scroll;
+    max-height:90vh;
+    /* margin-top:5vh; */
+    /* background-color: #eeeeee; */
+}
+
+.dis {
+    display: block;
+}
+
+body {
+    overflow-y:hidden;
+    height: 100%;
+}
