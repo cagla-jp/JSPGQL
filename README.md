@@ -10,4 +10,4 @@ Command for strt up gradle:
 To ensure PGQL is working,
 Link: http://localhost:7000/
 Sample Query: select v.id, v.properties from match (v) on <graphname>
-click on the button to ensure value(s) return
+click on the button [Query] to get return value(s)

@@ -26,7 +26,7 @@
                     <textarea id="txtareaPGQLQuery" rows="10" cols="50">SELECT src.id as s_id, src.properties as s_properties, label(src) as s_label, e.id as e_id, label(e) as e_label, dst.id as id, dst.properties as d_properties, label(dst) as d_label FROM MATCH (src)-[e]->(dst) ON tlinity</textarea>
                 </div>
                 <div class="container1">
-                	<!-- <div onclick="deleteAll()" class="btn1">Delete All</div> -->
+                	<div onclick="deleteAll()" class="btn1">Delete All</div>
                     <div onclick="nodeOnly()" class="btn1">Node Only</div>
                     <div onclick="getAll()" class="btn1">Get All</div>
                 </div>
