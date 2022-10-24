@@ -1,10 +1,12 @@
+## TLINITY
+
 # JS PGQL
 
 lib>src>main>resources>config.properties
 - Enter db properties value, db table, and graph name
 
 
-Command for strt up gradle:
+Command for start up gradle:
 - macos start up: `./gradlew run`
 - windows start up: `gradlew run`
 
