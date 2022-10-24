@@ -1,6 +1,6 @@
-## TLINITY
+# TLINITY
 
-# JS PGQL
+## JS PGQL
 
 lib>src>main>resources>config.properties
 - Enter db properties value, db table, and graph name
