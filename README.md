@@ -21,5 +21,10 @@ To ensure PGQL is working,
 
 
 Requirements:
-Download Oracle Graph Client library from oracle site
+Step 1: Download Oracle Graph Client library from oracle site
 https://www.oracle.com/database/technologies/spatialandgraph/property-graph-features/graph-server-and-client/graph-server-and-client-downloads.html
+
+Step 2: unzip oracle-graph-client-22.4.0.zip
+
+Step 3: Ensure build.gradle dependencies include the graph client
+Example: implementation fileTree(dir: './oracle-graph-client-22.4.0/lib/', include: '*.jar', exclude: 'ons-19.12.0.0.jar')
