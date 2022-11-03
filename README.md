@@ -21,7 +21,9 @@ To ensure PGQL is working,
 
 
 Requirements:
+
 Step 1: Download Oracle Graph Client library from oracle site
+
 https://www.oracle.com/database/technologies/spatialandgraph/property-graph-features/graph-server-and-client/graph-server-and-client-downloads.html
 
 Step 2: unzip oracle-graph-client-22.4.0.zip
