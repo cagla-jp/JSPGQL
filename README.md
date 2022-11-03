@@ -18,3 +18,8 @@ To ensure PGQL is working,
 - click on the button [Query] to retrieve response result
 
 <img width="400" alt="image" src="https://user-images.githubusercontent.com/36125036/182305953-5ab5517f-37ee-4ba4-a2bb-5a0a58c7d78d.png">
+
+
+Requirements:
+Download Oracle Graph Client library from oracle site
+https://www.oracle.com/database/technologies/spatialandgraph/property-graph-features/graph-server-and-client/graph-server-and-client-downloads.html
